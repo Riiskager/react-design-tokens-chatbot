@@ -1,0 +1,52 @@
+/* Gentagne værdier:
+/* Border: 1px solid + farve
+/* Color-dark: #182230
+/* Button background: #edf2ff
+/* Button radius: 8px - chat og messages 12px 
+/* outline border #c4ced9
+/* light blue #2457d6
+/* dark blue #193b91
+/* warning #ae3e00 */
+
+:root{
+    --button-background: #2457d6;
+    --button-background-hover: #d2dfff;
+    --button-fontcolor: #193b91;
+    --warning: #ae3e00;
+    --button-secondary-background: #edf2ff;
+    --outline-border: #c4ced9;
+    --text-light: #526172;
+    --text-dark: #182230;
+    --message-assistant-background: #dedede;
+    --main-background: #eef2f6;
+    --background-box: #ffffff;
+    --message-user: #ebecf0;
+    --message-assistant: #182230;
+
+    /*Størrelser*/
+--space-1:	4px;
+--space-2:	8px;
+--space-3:	12px;
+--space-4:	16px;
+--space-5:	20px;
+--space-6:	24px;
+--space-8:	32px;
+
+}
+
+.app[data-theme="dark"]{
+    --button-background: #7f48c2;
+    --button-background-hover: #530a58;
+    --button-fontcolor: #ebecf0;
+    --warning: #ae3e00;
+    --button-secondary-background: #7f48c2;
+    --outline-border: #bdfbd5;
+    --text-light: #dbecff;
+    --text-dark: #e4e4e4;
+    --main-background: #203655;
+    --message-assistant-background: #7f48c2;
+    --message-text: #ebecf0;
+    --background-box: #484478;
+    --message-assistant: #ebecf0;
+}
+
